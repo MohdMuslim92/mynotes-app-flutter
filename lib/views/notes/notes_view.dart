@@ -87,8 +87,6 @@ class _NotesViewState extends State<NotesView> {
                             );
                           },
                           onTab: (note) {
-                            // Add this line to handle onTab
-                            // Define the behavior for onTab here
                             Navigator.of(context).pushNamed(
                               createOrUpdateNoteRoute,
                               arguments: note,
