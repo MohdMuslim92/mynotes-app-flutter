@@ -1,0 +1,60 @@
+{
+    "logout_button": "تسجيل الخروج",
+    "note": "ملاحظة",
+    "cancel": "إلغاء",
+    "yes": "نعم",
+    "delete": "حذف",
+    "sharing": "مشاركة",
+    "ok": "حسنًا",
+    "login": "تسجيل الدخول",
+    "verify_email": "تحقق من البريد الإلكتروني",
+    "register": "تسجيل",
+    "restart": "إعادة التشغيل",
+    "please_wait": "الرجاء الانتظار ريثما يتم تسجيل الدخول",
+
+    "start_typing_your_note": "ابدأ بكتابة ملاحظتك",
+    "delete_note_prompt": "هل أنت متأكد أنك تريد حذف هذه الملاحظة؟",
+    "cannot_share_empty_note_prompt": "لا يمكن مشاركة ملاحظة فارغة!",
+    "generic_error_prompt": "حدث خطأ",
+    "logout_dialog_prompt": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+
+    "password_reset": "إعادة تعيين كلمة المرور",
+    "password_reset_dialog_prompt": "لقد أرسلنا لك الآن رابط إعادة تعيين كلمة المرور. يرجى التحقق من بريدك الإلكتروني لمزيد من المعلومات.",
+
+    "login_error_wrong_credentials": "بيانات الاعتماد غير صحيحة",
+    "login_error_auth_error": "خطأ في المصادقة",
+
+    "login_view_prompt": "يرجى تسجيل الدخول إلى حسابك لمشاهدة ملاحظاتك !",
+
+    "login_view_forgot_password": "نسيت كلمة المرور",
+    "login_view_not_registered_yet": "لست مسجلاً بعد؟ سجل هنا!",
+
+    "email_text_field_placeholder": "أدخل بريدك الإلكتروني هنا",
+    "password_text_field_placeholder": "أدخل كلمة المرور هنا",
+
+    "forgot_password": "نسيت كلمة المرور",
+    "forgot_password_view_generic_error": "لم نتمكن من معالجة طلبك. يرجى التأكد من أنك مستخدم مسجل، أو إذا لم تكن كذلك، قم بتسجيل مستخدم الآن بالعودة خطوة للخلف.",
+    "forgot_password_view_prompt": "إذا نسيت كلمة المرور الخاصة بك، ببساطة أدخل بريدك الإلكتروني وسنرسل لك رابط إعادة تعيين كلمة المرور.",
+    "forgot_password_view_send_me_link": "أرسل لي رابط إعادة تعيين كلمة المرور",
+    "forgot_password_view_back_to_login": "العودة إلى صفحة تسجيل الدخول",
+
+    "register_error_weak_password": "كلمة المرور هذه ليست آمنة بما يكفي. يرجى اختيار كلمة مرور أخرى!",
+    "register_error_email_already_in_use": "هذا البريد الإلكتروني مسجل بالفعل لمستخدم آخر. يرجى اختيار بريد إلكتروني آخر!",
+    "register_error_generic": "فشل في التسجيل. يرجى المحاولة مرة أخرى لاحقًا!",
+    "register_error_invalid_email": "يبدو أن عنوان البريد الإلكتروني الذي أدخلته غير صالح. يرجى تجربة عنوان بريد إلكتروني آخر!",
+    "register_view_prompt": "أدخل بريدك الإلكتروني وكلمة مرور جديدة للتفاعل وإنشاء الملاحظات!",
+    "register_view_already_registered": "مسجل بالفعل؟ سجل الدخول هنا!",
+
+    "verify_email_view_prompt": "لقد أرسلنا لك تحققًا عبر البريد الإلكتروني. يرجى فتحه للتحقق من حسابك. إذا لم تتلقَ بريدًا للتحقق بعد، اضغط على الزر أدناه!",
+    "verify_email_send_email_verification": "أرسل تحقق البريد الإلكتروني",
+
+    "notes_title": "{count, plural, =0{لا توجد ملاحظات بعد} =1{ملاحظة واحدة} =2{ملاحظتان} other{{count} ملاحظات}}",
+    "@notes_title": {
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "3 ملاحظات"
+            }
+        }
+    }
+}
