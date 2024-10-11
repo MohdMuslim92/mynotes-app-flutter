@@ -43,7 +43,15 @@ Add your google-services.json (for Android) and GoogleService-Info.plist (for iO
    ```
 
 ## Learning Journey
-This project is inspired by and follows along with the amazing Flutter course by [Vandad Nahavandipoor](https://github.com/vandadnp). If you are new to Flutter and want to learn from scratch, I highly recommend checking out this course:
+This project is inspired by and follows along with the amazing Flutter course by [Vandad Nahavandipoor](https://github.com/vandadnp).  Throughout the development of this app, I gained practical knowledge in various aspects of mobile development, including:
+
+- **Flutter**: Understanding the framework's core concepts, including widgets, state management, navigation, and building responsive UIs.
+- **Dart**: Mastering the language that powers Flutter, including object-oriented programming, asynchronous programming with `async` and `await`, and working with streams.
+- **Mobile App Design with Figma**: Learning to design user interfaces and create prototypes using Figma, ensuring that the app is both visually appealing and user-friendly.
+- **Mobile Development Best Practices**: Applying best practices for building cross-platform apps, such as managing app lifecycle, handling device compatibility, and creating responsive layouts.
+- **Integration with Firebase**: Setting up and integrating Firebase services for authentication and data storage using Firestore, making the app secure and reliable.
+
+If you are new to Flutter and want to learn from scratch, I highly recommend checking out this course:
 
 [Learn Flutter from Beginning by Vandad Nahavandipoor](https://www.youtube.com/watch?v=VPvVD8t02U8&t=126278s)
 
@@ -62,7 +70,8 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 * [Flutter Documentation](https://docs.flutter.dev/)
 * [Firebase Documentation](https://firebase.google.com/docs/build?_gl=1*1vlncxb*_up*MQ..*_ga*Mzg4MjA0NzcuMTcyODY4NDY5MQ..*_ga_CW55HF8NVT*MTcyODY4NDY5MS4xLjAuMTcyODY4NDcwNy4wLjAuMA..)
-* [Vandad Nahavandipoor for the fantastic Flutter course](https://www.youtube.com/watch?v=VPvVD8t02U8&t=126278s).
+* [Vandad Nahavandipoor](https://www.linkedin.com/in/vandadnp/) for the fantastic Flutter course.
+* [Free Code Camp](https://www.youtube.com/@freecodecamp)
 
 ## Contact
 Feel free to reach out if you have any questions or suggestions:
