@@ -2,6 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:mynotes/services/auth/auth_provider.dart';
 import 'package:mynotes/services/auth/bloc/auth_event.dart';
 import 'package:mynotes/services/auth/bloc/auth_state.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc(AuthProvider provider)
@@ -89,10 +90,10 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
 
     // Log in
     on<AuthEventLogIn>((event, emit) async {
-      emit(const AuthStateLoggedOut(
+      emit(AuthStateLoggedOut(
         exception: null,
         isLoading: true,
-        loadingText: 'Please wait while I log you in',
+        loadingText: AppLocalizations.of(event.context)!.please_wait,
       ));
       final email = event.email;
       final password = event.password;
